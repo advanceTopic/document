@@ -26,3 +26,6 @@ https://backend-xiuzo5vrta-uc.a.run.app
 
 ### Backend repository
 [backend repository](https://github.com/advanceTopic/backend/tree/dev)
+
+### Contract repository
+[contract repository](https://github.com/advanceTopic/contract)
