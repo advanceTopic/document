@@ -1,0 +1,21 @@
+version: '3.6'
+services:
+  frontend:
+    image: dreammnck/advance_topic_project_frontend:1.0.0
+    container_name: frontend
+    ports:
+      - ${FRONTEND_PORT}:${FRONTEND_PORT}
+    networks:
+      - aTicket
+  backend:
+    image: dreammnck/advance_topic_project_backend:1.0.0
+    container_name: backend
+    restart: always
+    env_file:
+      - ./.env.backend
+    ports:
+      - ${BACKEND_PORT}:${BACKEND_PORT}
+    networks:
+      - aTicket
+networks:
+  aTicket:
