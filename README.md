@@ -20,3 +20,9 @@ Backend url (already deployed)
 ```
 https://backend-xiuzo5vrta-uc.a.run.app
 ```
+
+### Frontend repository
+[frontend repository](https://github.com/advanceTopic/frontend/tree/dev)
+
+### Backend repository
+[backend repository](https://github.com/advanceTopic/backend/tree/dev)
